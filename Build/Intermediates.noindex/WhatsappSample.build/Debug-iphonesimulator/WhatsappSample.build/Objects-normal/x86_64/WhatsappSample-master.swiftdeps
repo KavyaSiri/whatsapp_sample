@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "ba4530ae8b5c635ad4bbb3c2019aabe3"
+build_time: [1588178052, 602178000]
+inputs:
+  "/Users/macmini/Desktop/siri/siri/iOS/PracticeProjects/WhatsappSample/WhatsappSample/AppDelegate.swift": [1587991209, 681286415]
+  "/Users/macmini/Desktop/siri/siri/iOS/PracticeProjects/WhatsappSample/WhatsappSample/ViewControllers/Camera/CameraViewController.swift": [1588057459, 527250127]
+  "/Users/macmini/Desktop/siri/siri/iOS/PracticeProjects/WhatsappSample/WhatsappSample/ViewControllers/Settings/SettingsViewController.swift": [1588178052, 554661011]
+  "/Users/macmini/Desktop/siri/siri/iOS/PracticeProjects/WhatsappSample/WhatsappSample/ViewControllers/Status/StatusViewController.swift": [1588143317, 875469178]
+  "/Users/macmini/Desktop/siri/siri/iOS/PracticeProjects/WhatsappSample/WhatsappSample/ViewControllers/Calls/CallsViewController.swift": [1588156488, 283384713]
+  "/Users/macmini/Desktop/siri/siri/iOS/PracticeProjects/WhatsappSample/WhatsappSample/ViewControllers/Settings/GeneralSettingCell.swift": [1588170795, 248121438]
+  "/Users/macmini/Desktop/siri/siri/iOS/PracticeProjects/WhatsappSample/WhatsappSample/ViewControllers/Status/OtherStatusCell.swift": [1588060650, 497836651]
+  "/Users/macmini/Desktop/siri/siri/iOS/PracticeProjects/WhatsappSample/WhatsappSample/ViewControllers/Calls/CallsViewCell.swift": [1588145649, 204059776]
+  "/Users/macmini/Desktop/siri/siri/iOS/PracticeProjects/WhatsappSample/WhatsappSample/ViewControllers/Chats/ChatsViewController.swift": [1588162265, 234491435]
+  "/Users/macmini/Desktop/siri/siri/iOS/PracticeProjects/WhatsappSample/WhatsappSample/SceneDelegate.swift": [1587991209, 693376557]
+  "/Users/macmini/Desktop/siri/siri/iOS/PracticeProjects/WhatsappSample/WhatsappSample/ViewControllers/Status/MyStatusCell.swift": [1588060651, 80254280]
+  "/Users/macmini/Desktop/siri/siri/iOS/PracticeProjects/WhatsappSample/WhatsappSample/ViewControllers/Settings/ProfileSettingsCell.swift": [1588170703, 44454003]
+  "/Users/macmini/Desktop/siri/siri/iOS/PracticeProjects/WhatsappSample/WhatsappSample/ViewControllers/Chats/ChatsCell.swift": [1588159874, 129171153]

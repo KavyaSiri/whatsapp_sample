@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A2C1EBF2459635C00AB9B55 /* CallsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C1EBE2459635C00AB9B55 /* CallsViewCell.swift */; };
+		9A2C1EC1245998BA00AB9B55 /* ChatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C1EC0245998BA00AB9B55 /* ChatsCell.swift */; };
+		9A2C1EC32459BB2B00AB9B55 /* ProfileSettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C1EC22459BB2B00AB9B55 /* ProfileSettingsCell.swift */; };
+		9A2C1EC52459BBC600AB9B55 /* GeneralSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C1EC42459BBC600AB9B55 /* GeneralSettingCell.swift */; };
+		9AF76D6B24570A290065FB63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF76D6A24570A290065FB63 /* AppDelegate.swift */; };
+		9AF76D6D24570A290065FB63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF76D6C24570A290065FB63 /* SceneDelegate.swift */; };
+		9AF76D7424570A290065FB63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF76D7224570A290065FB63 /* Main.storyboard */; };
+		9AF76D7624570A2C0065FB63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF76D7524570A2C0065FB63 /* Assets.xcassets */; };
+		9AF76D7924570A2C0065FB63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF76D7724570A2C0065FB63 /* LaunchScreen.storyboard */; };
+		9AF76D8124580CCB0065FB63 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF76D8024580CCB0065FB63 /* StatusViewController.swift */; };
+		9AF76D8324580CDF0065FB63 /* CallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF76D8224580CDF0065FB63 /* CallsViewController.swift */; };
+		9AF76D8524580CF30065FB63 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF76D8424580CF30065FB63 /* CameraViewController.swift */; };
+		9AF76D8724580D170065FB63 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF76D8624580D170065FB63 /* ChatsViewController.swift */; };
+		9AF76D8924580D310065FB63 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF76D8824580D310065FB63 /* SettingsViewController.swift */; };
+		9AF76D8E245815EF0065FB63 /* MyStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF76D8D245815EF0065FB63 /* MyStatusCell.swift */; };
+		9AF76D90245816080065FB63 /* OtherStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF76D8F245816080065FB63 /* OtherStatusCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A2C1EBE2459635C00AB9B55 /* CallsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsViewCell.swift; sourceTree = "<group>"; };
+		9A2C1EC0245998BA00AB9B55 /* ChatsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsCell.swift; sourceTree = "<group>"; };
+		9A2C1EC22459BB2B00AB9B55 /* ProfileSettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingsCell.swift; sourceTree = "<group>"; };
+		9A2C1EC42459BBC600AB9B55 /* GeneralSettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingCell.swift; sourceTree = "<group>"; };
+		9AF76D6724570A290065FB63 /* WhatsappSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsappSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF76D6A24570A290065FB63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AF76D6C24570A290065FB63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9AF76D7324570A290065FB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AF76D7524570A2C0065FB63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AF76D7824570A2C0065FB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AF76D7A24570A2C0065FB63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF76D8024580CCB0065FB63 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		9AF76D8224580CDF0065FB63 /* CallsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsViewController.swift; sourceTree = "<group>"; };
+		9AF76D8424580CF30065FB63 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		9AF76D8624580D170065FB63 /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		9AF76D8824580D310065FB63 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9AF76D8D245815EF0065FB63 /* MyStatusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStatusCell.swift; sourceTree = "<group>"; };
+		9AF76D8F245816080065FB63 /* OtherStatusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherStatusCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AF76D6424570A290065FB63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AF76D5E24570A290065FB63 = {
+			isa = PBXGroup;
+			children = (
+				9AF76D6924570A290065FB63 /* WhatsappSample */,
+				9AF76D6824570A290065FB63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AF76D6824570A290065FB63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AF76D6724570A290065FB63 /* WhatsappSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AF76D6924570A290065FB63 /* WhatsappSample */ = {
+			isa = PBXGroup;
+			children = (
+				9AF76D6A24570A290065FB63 /* AppDelegate.swift */,
+				9AF76D6C24570A290065FB63 /* SceneDelegate.swift */,
+				9AF76D8A24580D9C0065FB63 /* ViewControllers */,
+				9AF76D7224570A290065FB63 /* Main.storyboard */,
+				9AF76D7524570A2C0065FB63 /* Assets.xcassets */,
+				9AF76D7724570A2C0065FB63 /* LaunchScreen.storyboard */,
+				9AF76D7A24570A2C0065FB63 /* Info.plist */,
+			);
+			path = WhatsappSample;
+			sourceTree = "<group>";
+		};
+		9AF76D8A24580D9C0065FB63 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9AF76D92245816210065FB63 /* Camera */,
+				9AF76D8C245815A60065FB63 /* Status */,
+				9AF76D91245816100065FB63 /* Calls */,
+				9AF76D932458163C0065FB63 /* Chats */,
+				9AF76D94245816540065FB63 /* Settings */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9AF76D8C245815A60065FB63 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				9AF76D8024580CCB0065FB63 /* StatusViewController.swift */,
+				9AF76D8D245815EF0065FB63 /* MyStatusCell.swift */,
+				9AF76D8F245816080065FB63 /* OtherStatusCell.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		9AF76D91245816100065FB63 /* Calls */ = {
+			isa = PBXGroup;
+			children = (
+				9AF76D8224580CDF0065FB63 /* CallsViewController.swift */,
+				9A2C1EBE2459635C00AB9B55 /* CallsViewCell.swift */,
+			);
+			path = Calls;
+			sourceTree = "<group>";
+		};
+		9AF76D92245816210065FB63 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				9AF76D8424580CF30065FB63 /* CameraViewController.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		9AF76D932458163C0065FB63 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				9AF76D8624580D170065FB63 /* ChatsViewController.swift */,
+				9A2C1EC0245998BA00AB9B55 /* ChatsCell.swift */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		9AF76D94245816540065FB63 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9AF76D8824580D310065FB63 /* SettingsViewController.swift */,
+				9A2C1EC22459BB2B00AB9B55 /* ProfileSettingsCell.swift */,
+				9A2C1EC42459BBC600AB9B55 /* GeneralSettingCell.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AF76D6624570A290065FB63 /* WhatsappSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF76D7D24570A2C0065FB63 /* Build configuration list for PBXNativeTarget "WhatsappSample" */;
+			buildPhases = (
+				9AF76D6324570A290065FB63 /* Sources */,
+				9AF76D6424570A290065FB63 /* Frameworks */,
+				9AF76D6524570A290065FB63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsappSample;
+			productName = WhatsappSample;
+			productReference = 9AF76D6724570A290065FB63 /* WhatsappSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AF76D5F24570A290065FB63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Mac Mini";
+				TargetAttributes = {
+					9AF76D6624570A290065FB63 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9AF76D6224570A290065FB63 /* Build configuration list for PBXProject "WhatsappSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AF76D5E24570A290065FB63;
+			productRefGroup = 9AF76D6824570A290065FB63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AF76D6624570A290065FB63 /* WhatsappSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AF76D6524570A290065FB63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF76D7924570A2C0065FB63 /* LaunchScreen.storyboard in Resources */,
+				9AF76D7624570A2C0065FB63 /* Assets.xcassets in Resources */,
+				9AF76D7424570A290065FB63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AF76D6324570A290065FB63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF76D6B24570A290065FB63 /* AppDelegate.swift in Sources */,
+				9AF76D8524580CF30065FB63 /* CameraViewController.swift in Sources */,
+				9AF76D8924580D310065FB63 /* SettingsViewController.swift in Sources */,
+				9AF76D8124580CCB0065FB63 /* StatusViewController.swift in Sources */,
+				9AF76D8324580CDF0065FB63 /* CallsViewController.swift in Sources */,
+				9A2C1EC52459BBC600AB9B55 /* GeneralSettingCell.swift in Sources */,
+				9AF76D90245816080065FB63 /* OtherStatusCell.swift in Sources */,
+				9A2C1EBF2459635C00AB9B55 /* CallsViewCell.swift in Sources */,
+				9AF76D8724580D170065FB63 /* ChatsViewController.swift in Sources */,
+				9AF76D6D24570A290065FB63 /* SceneDelegate.swift in Sources */,
+				9AF76D8E245815EF0065FB63 /* MyStatusCell.swift in Sources */,
+				9A2C1EC32459BB2B00AB9B55 /* ProfileSettingsCell.swift in Sources */,
+				9A2C1EC1245998BA00AB9B55 /* ChatsCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9AF76D7224570A290065FB63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF76D7324570A290065FB63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AF76D7724570A2C0065FB63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF76D7824570A2C0065FB63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AF76D7B24570A2C0065FB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AF76D7C24570A2C0065FB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AF76D7E24570A2C0065FB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhatsappSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kvyr.WhatsappSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AF76D7F24570A2C0065FB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhatsappSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kvyr.WhatsappSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AF76D6224570A290065FB63 /* Build configuration list for PBXProject "WhatsappSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF76D7B24570A2C0065FB63 /* Debug */,
+				9AF76D7C24570A2C0065FB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF76D7D24570A2C0065FB63 /* Build configuration list for PBXNativeTarget "WhatsappSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF76D7E24570A2C0065FB63 /* Debug */,
+				9AF76D7F24570A2C0065FB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AF76D5F24570A290065FB63 /* Project object */;
+}
